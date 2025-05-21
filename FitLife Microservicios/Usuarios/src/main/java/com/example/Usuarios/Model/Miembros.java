@@ -11,7 +11,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table (name ="Miembros")
+@Table (name ="miembros")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -27,7 +27,5 @@ public class Miembros {
     @Column(nullable = false)
     private String passwordMiembro;
 
-    @Column(nullable = false)
-    private String rol;
     
 }
