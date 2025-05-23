@@ -3,6 +3,7 @@ package com.example.Usuarios;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
 public class UsuariosApplication {
 
@@ -11,3 +12,4 @@ public class UsuariosApplication {
 	}
 
 }
+
